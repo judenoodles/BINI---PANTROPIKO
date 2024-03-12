@@ -15,18 +15,7 @@ struct lyrics {
     lyric islang;
 } p[10];
 
-struct rightLyrics {
-    lyric shux;
-    lyric nadarama;
-    lyric boy;
-    lyric bawat;
-    lyric magmula;
-    lyric kapiling;
-    lyric summer;
-    lyric pantropiko;
-    lyric back;
-    lyric islang;
-}; /*answers; {
+/* answers; {
     "shux",
     "nadarama",
     "boy",
@@ -37,7 +26,7 @@ struct rightLyrics {
     "pantropiko",
     "back",
     "islang",
-}*/
+} */
 
 int main () {
     printf("Goal: Finish the lyrics (song: Pantropiko by BINI)\n");
