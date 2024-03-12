@@ -6,22 +6,26 @@ struct info {
     word place;
     word name;
     int age;
-} p1, p2;
+} p[2];
 
+//struct info {}
 
 int main () {
-    printf("enter name: ");
-    scanf("%s", p1.name);
-    printf("what do you like: ");
-    scanf("%s", p1.place);
-    printf("enter age: ");
-    scanf("%d", &p1.age);
+
+    for (int i = 0; i < 2; i++) {
+        printf("enter name: ");
+        scanf("%s", p[i].name);
+        printf("what do you like: ");
+        scanf("%s", p[i].place);
+        printf("enter age: ");
+        scanf("%d", &p[i].age);
+    }
     
-    
-    printf("This is the final statement:\n");
-    printf("Hi, my name is %s. I like %s. I'm %d years old.\nAnd today is actually my birthday too :)", p1.name, p1.place, p1.age);
-    
-    
+    for (int i = 0; i < 2; i++) {
+        printf("hey %s, ive got %d questions for you.. yes or %s", p[i].name, p[i].age, p[i].place);
+        printf("\n");
+    }
+
     return 0;
 
 }
