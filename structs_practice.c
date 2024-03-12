@@ -19,7 +19,7 @@ int main () {
     
     
     printf("This is the final statement:\n");
-    printf("Hi, my name is %s. I like %s. I'm %c years old.\nAnd today is actually my birthday too :)", p1.name, p1.place, p1.age);
+    printf("Hi, my name is %s. I like %s. I'm %d years old.\nAnd today is actually my birthday too :)", p1.name, p1.place, p1.age);
     
     
     return 0;
